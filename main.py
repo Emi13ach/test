@@ -7,7 +7,7 @@ try:
 except FileNotFoundError as err:
     print(err)
 
-translator = Translator(from_lang="en", to_lang="pl")
+translator = Translator(from_lang="pl", to_lang="en")
 
 translation = translator.translate(text)
 
