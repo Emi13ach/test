@@ -5,10 +5,3 @@ try:
         text = file.read()
     print(text)
 except FileNotFoundError as err:
-    print(err)
-
-translator = Translator(from_lang="pl", to_lang="jpn")
-
-translation = translator.translate(text)
-
-print(translation)
