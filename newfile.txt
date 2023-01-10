@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 First line
 Second line
-=======
->>>>>>> parent of bc0cdc0 (add first line to newfile.txt)
+
